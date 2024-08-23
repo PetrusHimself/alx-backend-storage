@@ -4,9 +4,10 @@
 Back-endSQLMySQL
 
 *   Weight: 1
-*   Project will start Aug 21, 2024 6:00 AM, must end by Aug 23, 2024 6:00 AM
-*   Checker will be released at Aug 21, 2024 6:00 PM
+*   Ongoing second chance project - started Aug 21, 2024 6:00 AM, must end by Aug 25, 2024 6:00 AM
 *   An auto review will be launched at the deadline
+
+
 
 ### Concepts
 
@@ -116,7 +117,6 @@ Tasks
 
 ### 0\. We are all unique!
 
-mandatory
 
 Write a SQL script that creates a table `users` following these requirements:
 
@@ -158,9 +158,20 @@ Write a SQL script that creates a table `users` following these requirements:
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `0-uniq_users.sql`
 
+
+#### 0\. We are all unique!
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 1\. In and not out
 
-mandatory
 
 Write a SQL script that creates a table `users` following these requirements:
 
@@ -205,9 +216,21 @@ Write a SQL script that creates a table `users` following these requirements:
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `1-country_users.sql`
 
+
+
+#### 1\. In and not out
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 2\. Best band ever!
 
-mandatory
 
 Write a SQL script that ranks country origins of bands, ordered by the number of (non-unique) fans
 
@@ -243,9 +266,21 @@ Write a SQL script that ranks country origins of bands, ordered by the number of
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `2-fans.sql`
 
+
+
+#### 2\. Best band ever!
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 3\. Old school band
 
-mandatory
 
 Write a SQL script that lists all bands with `Glam rock` as their main style, ranked by their longevity
 
@@ -278,9 +313,21 @@ Write a SQL script that lists all bands with `Glam rock` as their main style, ra
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `3-glam_rock.sql`
 
+
+
+#### 3\. Old school band
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 4\. Buy buy buy
 
-mandatory
 
 Write a SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
 
@@ -353,9 +400,20 @@ Quantity in the table `items` can be negative.
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `4-store.sql`
 
+
+#### 4\. Buy buy buy
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 5\. Email validation to sent
 
-mandatory
 
 Write a SQL script that creates a trigger that resets the attribute `valid_email` only when the `email` has been changed.
 
@@ -429,9 +487,19 @@ Write a SQL script that creates a trigger that resets the attribute `valid_email
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `5-valid_email.sql`
 
-### 6\. Add bonus
 
-mandatory
+#### 5\. Email validation to sent
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
+### 6\. Add bonus
 
 Write a SQL script that creates a stored procedure `AddBonus` that adds a new correction for a student.
 
@@ -557,9 +625,19 @@ Write a SQL script that creates a stored procedure `AddBonus` that adds a new co
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `6-bonus.sql`
 
+#### 6\. Add bonus
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 7\. Average score
 
-mandatory
 
 Write a SQL script that creates a stored procedure `ComputeAverageScoreForUser` that computes and store the average score for a student. Note: An average score can be a decimal
 
@@ -661,9 +739,19 @@ Write a SQL script that creates a stored procedure `ComputeAverageScoreForUser` 
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `7-average_score.sql`
 
+#### 7\. Average score
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 8\. Optimize simple search
 
-mandatory
 
 Write a SQL script that creates an index `idx_name_first` on the table `names` and the first letter of `name`.
 
@@ -722,9 +810,20 @@ Write a SQL script that creates an index `idx_name_first` on the table `names` a
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `8-index_my_names.sql`
 
+
+#### 8\. Optimize simple search
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 9\. Optimize search and score
 
-mandatory
 
 Write a SQL script that creates an index `idx_name_first_score` on the table `names` and the first letter of `name` and the `score`.
 
@@ -782,9 +881,19 @@ Write a SQL script that creates an index `idx_name_first_score` on the table `na
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `9-index_name_score.sql`
 
-### 10\. Safe divide
 
-mandatory
+#### 9\. Optimize search and score
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
+### 10\. Safe divide
 
 Write a SQL script that creates a function `SafeDiv` that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0.
 
@@ -846,9 +955,19 @@ Write a SQL script that creates a function `SafeDiv` that divides (and returns) 
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `10-div.sql`
 
-### 11\. No table for a meeting
 
-mandatory
+#### 10\. Safe divide
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
+### 11\. No table for a meeting
 
 Write a SQL script that creates a view `need_meeting` that lists all students that have a score under 80 (strict) and no `last_meeting` or more than 1 month.
 
@@ -956,9 +1075,19 @@ Write a SQL script that creates a view `need_meeting` that lists all students th
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `11-need_meeting.sql`
 
-### 12\. Average weighted score
 
-#advanced
+#### 11\. No table for a meeting
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
+### 12\. Average weighted score
 
 Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreForUser` that computes and store the average weighted score for a student.
 
@@ -1066,9 +1195,20 @@ Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreF
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `100-average_weighted_score.sql`
 
+
+#### 12\. Average weighted score
+
+##### Commit used:
+
+*   **User:** \---
+*   **URL:** Click here
+*   **ID:** `---`
+*   **Author:** \---
+*   **Subject:** _\---_
+*   **Date:** \---
+
 ### 13\. Average weighted score for all!
 
-#advanced
 
 Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreForUsers` that computes and store the average weighted score for all students.
 
@@ -1174,4 +1314,7 @@ Write a SQL script that creates a stored procedure `ComputeAverageWeightedScoreF
 *   GitHub repository: `alx-backend-storage`
 *   Directory: `0x00-MySQL_Advanced`
 *   File: `101-average_weighted_score.sql`
+
+#### 13\. Average weighted score for all!
+
 
